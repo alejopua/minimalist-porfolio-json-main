@@ -3,9 +3,9 @@ import Section from "../Section.astro"
 import { education } from "@cv"
 import { differenceInCalendarDays } from "date-fns";
 
-const calcularDiferenciaFechas = (fI, fF) => {
+const calcularDiferenciaFechas = (fI: string | number | Date, fF: string | number | Date | null) => {
   const inicio = new Date(fI);
-  const fin = new Date(fF);
+  const fin = new Date(fF as string | number | Date);
 
   const diferenciaEnDias = differenceInCalendarDays(fin, inicio);
   const years = Math.floor(diferenciaEnDias / 365)
