@@ -1,0 +1,91 @@
+---
+import Section from "../Section.astro"
+import { education } from "@cv"
+import { differenceInCalendarDays } from "date-fns";
+
+const calcularDiferenciaFechas = (fI, fF) => {
+  const inicio = new Date(fI);
+  const fin = new Date(fF);
+
+  const diferenciaEnDias = differenceInCalendarDays(fin, inicio);
+  const years = Math.floor(diferenciaEnDias / 365)
+
+  return { 
+    years,
+    mesesRelativos: Math.floor((diferenciaEnDias % 365 ) / 30) , 
+    mesesReales: ((diferenciaEnDias % 1) >= 0.5) ? Math.ceil(diferenciaEnDias/30) : Math.floor(diferenciaEnDias/30),
+    dias: diferenciaEnDias,
+    inicio,
+    fin
+  };
+}
+--- 
+
+
+<Section title="Educación">
+  <ul>
+    {
+      education.map(
+        ({ institution, startDate, endDate, title, summary  }) => {
+          const { mesesReales, mesesRelativos, years, dias, inicio } = calcularDiferenciaFechas(startDate, endDate);
+
+          return (
+            <li>
+              <article>
+                <header>
+                  <div>
+                    <h3>{title}</h3>
+                    <h4>{institution}</h4>
+                  </div>
+
+                  <time>
+                    {
+                      (mesesReales >= 12 ) 
+                        ? `${years === 0 ? '' : years } ${years === 1 ? 'año' : (years !== 0) ? 'años' : '' } ${mesesRelativos === 0 ? '' : (mesesRelativos === 1) ? `y ${mesesRelativos} mes` : `y ${mesesRelativos} meses` }` 
+                        : (mesesReales !== 0 && mesesReales < 12 && endDate !== null) ? `${mesesReales} ${mesesReales === 1 ? 'mes' : 'meses'}`  
+                        : (endDate !== null) ? `${dias} ${dias === 1 ? 'día' : 'días'}` : `${inicio.toLocaleString('es', {month: 'short', year: "numeric" })} - En curso` 
+                    }
+                  </time>
+                </header>
+
+                <footer>
+                  <p>{summary}</p>
+                </footer>
+              </article>
+            </li>
+          )
+        }
+      )
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  article h3 {
+    font-weight: 500;
+    color: #111;
+  }
+
+  article h4 {
+    color: #222;
+    font-weight: 400;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px;
+  }
+
+  time {
+    color: #555;
+    font-size: 0.85rem;
+  }
+</style>
