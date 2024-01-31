@@ -38,12 +38,12 @@ const calcularDiferenciaFechas = (fI: string | number | Date, fF: string | numbe
                     <h4>{institution}</h4>
                   </div>
 
-                  <time>
+                  <time class="styletextdate">
                     {
                       (mesesReales >= 12 ) 
                         ? `${years === 0 ? '' : years } ${years === 1 ? 'año' : (years !== 0) ? 'años' : '' } ${mesesRelativos === 0 ? '' : (mesesRelativos === 1) ? `y ${mesesRelativos} mes` : `y ${mesesRelativos} meses` }` 
                         : (mesesReales !== 0 && mesesReales < 12 && endDate !== null) ? `${mesesReales} ${mesesReales === 1 ? 'mes' : 'meses'}`  
-                        : (endDate !== null) ? `${dias} ${dias === 1 ? 'día' : 'días'}` : `${inicio.toLocaleString('es', {month: 'short', year: "numeric" })} - En curso` 
+                        : (endDate !== null) ? `${dias} ${dias === 1 ? 'día' : 'días'}` : `${inicio.toLocaleString('es', {month: 'short', year: "numeric" })} • Cursando` 
                     }
                   </time>
                 </header>
@@ -83,9 +83,11 @@ const calcularDiferenciaFechas = (fI: string | number | Date, fF: string | numbe
     align-items: flex-start;
     margin-bottom: 4px;
   }
-
-  time {
+  .styletextdate {
     color: #555;
     font-size: 0.85rem;
+    text-align: -webkit-right;
+    width: -webkit-fill-available;
+    max-width: 31%;
   }
 </style>
