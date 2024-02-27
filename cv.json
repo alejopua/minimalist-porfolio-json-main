@@ -237,6 +237,15 @@
   }],
   "projects": [
     {
+      "name": "Hero App SPA",
+      "isActive": true,
+      "description": "SPA para buscar y filtrar héroes de Marvel y DC Comics. Desarrollada con React, React Router v6",
+      "technologies": [
+        "React, React Router v6, Bootstrap, Vite"
+      ],
+      "url": "https://react-07-heros-k3j46yr0o-alejopua.vercel.app/marvel"
+    },
+    {
       "name": "Todo Vanilla",
       "isActive": true,
       "description": "Gestor de tareas minimalista.",
