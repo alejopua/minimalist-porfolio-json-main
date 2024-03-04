@@ -316,6 +316,15 @@
         "Vanilla JavaScript"
       ],
       "url": "https://crud-app-alejopua.vercel.app/"
+    },
+    {
+      "name": "Poke From API",
+      "isActive": true,
+      "description": "Uso de (PokeAPI). Incluye manejo de errores, un spinner de carga, filtrado de datos y usa Bootstrap.",
+      "technologies": [
+        "React", "fetch API", "Boopstrap"
+      ],
+      "url": "https://poke-from-api.vercel.app/"
     }
   ]
 }
