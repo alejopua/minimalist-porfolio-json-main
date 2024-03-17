@@ -2,13 +2,14 @@
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
     "baseUrl": ".",
+		"lib": ["es2022", "dom", "dom.iterable"],
     "paths": {
-      "@cv": [
-        "./cv.json"
-      ],
-      "@/*": [
-        "src/*"
-      ]
-    }
-  }
+      "@cv": ["./cv.json"],
+			"@/site-config": ["src/site.config.ts"],
+      "@/*": ["src/*"],
+			"@/components/*": ["src/components/*"],
+			"@/layouts/*": ["src/layouts/*"]
+		}
+	},
+	"exclude": ["node_modules", "**/node_modules/*", ".vscode", "dist"]
 }
