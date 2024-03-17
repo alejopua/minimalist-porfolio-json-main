@@ -7,29 +7,22 @@ import Experience from "@/components/sections/Experience.astro"
 import Hero from "@/components/sections/Hero.astro"
 import Projects from "@/components/sections/Projects.astro"
 import Skills from "@/components/sections/Skills.astro"
-import KeyboardManager from "@/components/KeyboardManager.astro"
 
 import { basics } from "@cv"
 const { name, label } = basics
+
+const meta = {
+	description: "Oops! It looks like this page is lost in space!",
+	title: `Portafolio de ${name} - ${label}`,
+};
 ---
 
-<Layout title={`Portafolio de ${name} - ${label}`}>
-  <main>
-    <Hero />
-    <About />
-    <Experience />
-    <Education />
-    <Projects />
-    <Skills />
-  </main>
-
-  <KeyboardManager />
+<Layout meta={meta}>
+  <Hero />
+  <About />
+  <Experience />
+  <Education />
+  <Projects />
+  <Skills />
 </Layout>
 
-<style>
-  main {
-    padding: 4rem;
-    margin: auto;
-    width: 100%;
-  }
-</style>
