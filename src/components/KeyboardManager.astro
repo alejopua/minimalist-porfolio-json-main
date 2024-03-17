@@ -87,7 +87,7 @@ const profilesInfo = profiles.map(({ network, url }) => {
 
   const footerTextElement = document.querySelector(".footer-text");
   const updateFooterText = () => {
-    const newText = window.innerWidth <= 429 ? 'Oprime para más opciones.' : 'Pulsa <kbd>Cmd</kbd>+<kbd>K</kbd> ó <kbd>Ctrl</kbd>+<kbd>K</kbd> para abrir la paleta de comandos';
+    const newText = window.innerWidth <= 432 ? 'Oprime para más opciones.' : 'Pulsa <kbd>Cmd</kbd>+<kbd>K</kbd> ó <kbd>Ctrl</kbd>+<kbd>K</kbd> para abrir la paleta de comandos';
     if (footerTextElement) {
       footerTextElement.innerHTML = newText;
       }  
