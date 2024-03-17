@@ -26,7 +26,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
 <Section>
   <div class="container">
     <div class="info">
-      <h1>{name}</h1>
+      <h1 class="font-bold">{name}</h1>
       <h2>{label}</h2>
       <span>
         <WorldMap />
@@ -78,7 +78,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
         }
       </footer>
       <div>        
-        <button class="no-print">
+        <button class="btn-print no-print">
           Imprimir
         </button>
       </div>
@@ -159,6 +159,8 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
   }
 
   button {
+    font-size: 13.3333px;
+    font-family: Arial, Helvetica, sans-serif;
     background: #fff;
     cursor: pointer;
     color: #777;
@@ -193,7 +195,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
 </style>
 
 <script>
-  const handlerPrint = document.querySelector("button")
+  const handlerPrint = document.querySelector(".btn-print")
   handlerPrint?.addEventListener("click", () => {
     window.print()
   })
