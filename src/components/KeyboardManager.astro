@@ -143,22 +143,14 @@ const profilesInfo = profiles.map(({ network, url }) => {
     cursor: pointer;
   }
 
-  @media screen and (max-width: 429px) {
+  @media screen and (max-width: 432px) and (pointer: coarse) {
     ninja-keys::part(ninja-input-wrapper) {
       display: none;
     }
     ninja-keys {
       --ninja-width: 370px;
-      --ninja-font-size:	14px;
+      --ninja-font-size: 14px;
     }
   }
-
-    .ninja-hotkey {
-      display: none !important;
-    }
-
-    .modal-footer {
-      display: none;
-    }
 
 </style>
