@@ -27,7 +27,7 @@ const calcularDiferenciaFechas = (fI: string | number | Date, fF: string | numbe
     {
       education.map(
         ({ institution, startDate, endDate, title, summary  }) => {
-          const { mesesReales, mesesRelativos, years, dias, inicio } = calcularDiferenciaFechas(startDate, endDate);
+          const { mesesReales, mesesRelativos, years, inicio } = calcularDiferenciaFechas(startDate, endDate);
 
           return (
             <li>
@@ -43,7 +43,8 @@ const calcularDiferenciaFechas = (fI: string | number | Date, fF: string | numbe
                       (mesesReales >= 12 ) 
                         ? `${years === 0 ? '' : years } ${years === 1 ? 'año' : (years !== 0) ? 'años' : '' } ${mesesRelativos === 0 ? '' : (mesesRelativos === 1) ? `y ${mesesRelativos} mes` : `y ${mesesRelativos} meses` }` 
                         : (mesesReales !== 0 && mesesReales < 12 && endDate !== null) ? `${mesesReales} ${mesesReales === 1 ? 'mes' : 'meses'}`  
-                        : (endDate !== null) ? `${dias} ${dias === 1 ? 'día' : 'días'}` : `${inicio.toLocaleString('es', {month: 'short', year: "numeric" })} • Cursando` 
+                        : (startDate === 0 && endDate === 0) ? '• Aprendizaje Continuo' :`${inicio.toLocaleString('es', {month: 'short', year: "numeric" })} • Cursando`
+
                     }
                   </time>
                 </header>
