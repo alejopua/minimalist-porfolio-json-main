@@ -4,7 +4,7 @@
     "label": "Full Stack Junior Developer",
     "image": "/me.webp",
     "email": "alejopua@gmail.com",
-    "phone": "+57 3166760706",
+    "phone": "+57 3146701102",
     "url": "https://alejopua.me",
     "summary": "2+ años de experiencia como Desarrollador Web. Profesional en Ingeniería Civil enfocado en el área de desarrollo de software, desde el diseño y la implementación hasta el mantenimiento y la optimización. Manejo diversas tecnologías como: Git, GitHub, PostgreSQL, Docker, JavaScript, TypeScript, Node.js, ReactJS, Astro, NextJS. Dominio de herramientas como: VSCode, Figma, WordPress, Adobe Illustrator. Creando prototipos y demos de web apps.",
     "location": {
@@ -215,6 +215,41 @@
         "keywords": [
           "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
         ]
+      },
+      {
+        "name": "Zustand",
+        "level": "Intermedio",
+        "keywords": [
+          "Manejo del estado global de la app"
+        ]
+      },
+      {
+        "name": "React Query",
+        "level": "Intermedio",
+        "keywords": [
+          "Llamadas y fetching de datos"
+        ]
+      },
+      {
+        "name": "React Hook Form",
+        "level": "Intermedio",
+        "keywords": [
+          "Manejo y control de formularios"
+        ]
+      },
+      {
+        "name": "React Hot Toast",
+        "level": "Intermedio",
+        "keywords": [
+          "Notificaiones"
+        ]
+      },
+      {
+        "name": "Wouter",
+        "level": "Intermedio",
+        "keywords": [
+          "Enrutamiento"
+        ]
       }
     ],
   "languages": [{
@@ -241,26 +276,16 @@
       "isActive": true,
       "description": "SPA para buscar y filtrar héroes de Marvel y DC Comics. Desarrollada con React, React Router v6",
       "technologies": [
-        "React, React Router v6, Bootstrap, Vite"
+        "React Router v6", "Bootstrap"
       ],
       "url": "https://react-07-heros-spa.vercel.app/"
-    },
-    {
-      "name": "Todo Vanilla",
-      "isActive": true,
-      "description": "Gestor de tareas minimalista.",
-      "technologies": [
-        "Vanilla JavaScript"
-      ],
-      "url": "https://todo-vanilla-vite-app.vercel.app/"
     },
     {
       "name": "TodoApp",
       "isActive": true,
       "description": "Gestor de tareas desarrollado, con interfaz intuitiva para mejorar la productividad.",
       "technologies": [
-        "TailwindCSS",
-        "React"
+        "TailwindCSS"
       ],
       "url": "https://todo-app-with-react-1nywup6lv-alejopua.vercel.app/"
     },
@@ -276,55 +301,26 @@
       "url": "https://lucent-brioche-f4eab6.netlify.app/"
     },
     {
-      "name": "AluraGeek",
-      "isActive": true,
-      "description": "Prototipo E-Commerce con peticiones REST API y métodos HTTP CRUD.",
-      "technologies": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ],
-      "url": "https://alejopua.github.io/Challenge-Oracle-ONE--AluraGeek/screens/index.html"
-    },
-    {
-      "name": "GroupApp",
-      "isActive": true,
-      "description": "Facilitar la organización de grupos de trabajo según los roles.",
-      "technologies": [
-        "CSS",
-        "Vite",
-        "React"
-      ],
-      "url": "https://group-app.vercel.app/"
-    },
-    {
-      "name": "Blackjack",
-      "isActive": true,
-      "description": "Juego desarrollado con el fin de aplicar todos los conocimientos avanzados de JavaScript.",
-      "technologies": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ],
-      "url": "https://alejopua.github.io/blackjack-app-vite/"
-    },
-    {
-      "name": "CRUD App",
-      "isActive": false,
-      "description": "implement HTTP Request Methods, mappers, uses cases, store and rendering component.",
-      "technologies": [
-        "Vanilla JavaScript"
-      ],
-      "url": "https://crud-app-alejopua.vercel.app/"
-    },
-    {
       "name": "Poke From API",
       "isActive": true,
       "description": "Uso de (PokeAPI). Incluye manejo de errores, un spinner de carga, filtrado de datos y usa Bootstrap.",
       "technologies": [
-        "React", "fetch API", "Boopstrap"
+        "RESTful API", "Boopstrap"
       ],
       "url": "https://poke-from-api.vercel.app/"
+    },
+    {
+      "name": "Booking App",
+      "isActive": true,
+      "description": "App de reserva de hotel.",
+      "technologies": [
+        "Zustand",
+        "React Query",
+        "React Hook Form",
+        "React Hot Toast",
+        "Wouter"
+      ],
+      "url": "https://github.com/alejopua/Booking-app"
     }
   ]
 }
