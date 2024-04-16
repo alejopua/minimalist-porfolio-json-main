@@ -26,7 +26,7 @@
         "username": "alejopua",
         "url": "https://github.com/alejopua"
       }
-  ]
+    ]
   },
   "work": [
     {
@@ -45,17 +45,17 @@
       ]
     }
   ],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    }
+  ],
   "education": [
     {
       "institution": "Universidad Distrital Francisco José de Caldas",
@@ -98,215 +98,223 @@
       "summary": "Mi formación abarcó un amplio espectro de conocimientos y habilidades fundamentales para la práctica integral de la ingeniería civil. Desde la planificación y diseño de estructuras hasta la gestión de proyectos, pasando por la mecánica de suelos y la hidráulica, adquirí un sólido bagaje teórico y práctico. Mi enfoque se centró en la ejecución eficiente de proyectos, abordando aspectos como la planificación estratégica, el control de costos y presupuestos, y la contribución significativa al desarrollo sostenible en diversas disciplinas dentro de la ingeniería civil."
     }
   ],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
-  }],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
   "skills": [
-      {
-        "name": "HTML",
-        "level": "Intermedio",
-        "keywords": [
-          "Desarrollo Web", "Frontend"
-        ]
-      },
-      {
-        "name": "CSS",
-        "level": "Intermedio",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "Diseño Responsive"
-        ]
-      },
-      {
-        "name": "JavaScript",
-        "level": "Intermedio",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "Backend", "Fullstack"
-        ]
-      },
-      {
-        "name": "Docker",
-        "level": "Intermedio",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
-        ]
-      },
-      {
-        "name": "MongoDB",
-        "level": "Intermedio",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
-        ]
-      },
-      {
-        "name": "Postman",
-        "level": "Intermedio",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
-        ]
-      },
-      {
-        "name": "Tailwind",
-        "level": "Intermedio",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
-        ]
-      },
-      {
-        "name": "TypeScript",
-        "level": "Intermedio",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
-        ]
-      },
-      {
-        "name": "Node",
-        "level": "Intermedio",
-        "keywords": [
-          "Desarrollo Web", "Backend", "JavaScript", "Servidor"
-        ]
-      },
-      {
-        "name": "PostgreSQL",
-        "level": "Intermedio",
-        "keywords": [
-          "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
-        ]
-      },
-      {
-        "name": "Git",
-        "level": "Intermedio",
-        "keywords": [
-          "Control de Versiones", "Colaboración", "Código Fuente"
-        ]
-      },
-      {
-        "name": "GitHub",
-        "level": "Intermedio",
-        "keywords": [
-          "Control de Versiones", "Colaboración", "Código Fuente", "Git"
-        ]
-      },
-      {
-        "name": "React",
-        "level": "Intermedio",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
-        ]
-      },
-      {
-        "name": "Next.js",
-        "level": "Intermedio",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
-        ]
-      },
-      {
-        "name": "Zustand",
-        "level": "Intermedio",
-        "keywords": [
-          "Manejo del estado global de la app"
-        ]
-      },
-      {
-        "name": "React Query",
-        "level": "Intermedio",
-        "keywords": [
-          "Llamadas y fetching de datos"
-        ]
-      },
-      {
-        "name": "React Hook Form",
-        "level": "Intermedio",
-        "keywords": [
-          "Manejo y control de formularios"
-        ]
-      },
-      {
-        "name": "React Hot Toast",
-        "level": "Intermedio",
-        "keywords": [
-          "Notificaiones"
-        ]
-      },
-      {
-        "name": "Wouter",
-        "level": "Intermedio",
-        "keywords": [
-          "Enrutamiento"
-        ]
-      }
-    ],
-  "languages": [{
-    "language": "Spanish",
-    "fluency": "Native speaker"
-  }, {
-    "language": "English",
-    "fluency": "Advanced"
-  }],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
-  }],
+    {
+      "name": "HTML",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Web", "Frontend"]
+    },
+    {
+      "name": "CSS",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "Docker",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "Postman",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Intermedio",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Intermedio",
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Intermedio",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "Next.js",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "Zustand",
+      "level": "Intermedio",
+      "keywords": ["Manejo del estado global de la app"]
+    },
+    {
+      "name": "React Query",
+      "level": "Intermedio",
+      "keywords": ["Llamadas y fetching de datos"]
+    },
+    {
+      "name": "React Hook Form",
+      "level": "Intermedio",
+      "keywords": ["Manejo y control de formularios"]
+    },
+    {
+      "name": "React Hot Toast",
+      "level": "Intermedio",
+      "keywords": ["Notificaiones"]
+    },
+    {
+      "name": "Wouter",
+      "level": "Intermedio",
+      "keywords": ["Enrutamiento"]
+    },
+    {
+      "name": "Angular",
+      "level": "Intermedio",
+      "keywords": ["Framework"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
   "projects": [
     {
-      "name": "Hero App SPA",
+      "name": "Angular CRUD",
       "isActive": true,
-      "description": "SPA para buscar y filtrar héroes de Marvel y DC Comics. Desarrollada con React, React Router v6",
-      "technologies": [
-        "React Router v6", "Bootstrap"
-      ],
-      "url": "https://react-07-heros-spa.vercel.app/"
+      "description": "SPA con Angular 16",
+      "technologies": ["Angular 16", "Bootstrap"],
+      "url": "https://landing-angular-test.pages.dev/products"
     },
     {
       "name": "TodoApp",
       "isActive": true,
       "description": "Gestor de tareas desarrollado, con interfaz intuitiva para mejorar la productividad.",
-      "technologies": [
-        "TailwindCSS"
-      ],
+      "technologies": ["TailwindCSS"],
       "url": "https://todo-app-with-react-1nywup6lv-alejopua.vercel.app/"
     },
     {
       "name": "Text Encryptor",
       "isActive": true,
       "description": "Proporcionar funciones de cifrado y descifrado de texto.",
-      "technologies": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ],
+      "technologies": ["HTML", "CSS", "JavaScript"],
       "url": "https://lucent-brioche-f4eab6.netlify.app/"
     },
     {
       "name": "Poke From API",
       "isActive": true,
       "description": "Uso de (PokeAPI). Incluye manejo de errores, un spinner de carga, filtrado de datos y usa Bootstrap.",
-      "technologies": [
-        "RESTful API", "Boopstrap"
-      ],
+      "technologies": ["RESTful API", "Boopstrap"],
       "url": "https://poke-from-api.vercel.app/"
     },
     {
