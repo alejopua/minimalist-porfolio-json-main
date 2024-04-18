@@ -290,11 +290,11 @@
   ],
   "projects": [
     {
-      "name": "Angular CRUD",
+      "name": "task app Angular 17",
       "isActive": true,
-      "description": "SPA con Angular 16",
-      "technologies": ["Angular 16", "Bootstrap"],
-      "url": "https://landing-angular-test.pages.dev/products"
+      "description": "task manager app developed with Angular 17",
+      "technologies": ["Angular 17", "TailwindCSS"],
+      "url": "https://task-angular17-gqb6jefui-alejopuas-projects.vercel.app/task"
     },
     {
       "name": "TodoApp",
