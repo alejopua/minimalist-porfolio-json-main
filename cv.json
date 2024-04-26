@@ -318,17 +318,11 @@
       "url": "https://poke-from-api.vercel.app/"
     },
     {
-      "name": "Booking App",
+      "name": "React Redux Toolkit CRUD",
       "isActive": true,
-      "description": "App de reserva de hotel.",
-      "technologies": [
-        "Zustand",
-        "React Query",
-        "React Hook Form",
-        "React Hot Toast",
-        "Wouter"
-      ],
-      "url": "https://github.com/alejopua/Booking-app"
+      "description": "Gestión de usuarios gracias a las funcionalidades proporcionadas por Redux Toolkit.",
+      "technologies": ["React", "Redux Toolkit", "TailwindCSS"],
+      "url": "https://crud-react-redux-toolkit-v2-nqnrrgxlp-alejopuas-projects.vercel.app/"
     }
   ]
 }
