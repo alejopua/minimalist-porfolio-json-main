@@ -323,6 +323,19 @@
       "description": "Gestión de usuarios gracias a las funcionalidades proporcionadas por Redux Toolkit.",
       "technologies": ["React", "Redux Toolkit", "TailwindCSS"],
       "url": "https://crud-react-redux-toolkit-v2.vercel.app/"
+    },
+    {
+      "name": "Journal",
+      "isActive": true,
+      "description": "Gestión de mi diario. la app cuenta con autenticacion con firebase.",
+      "technologies": [
+        "React",
+        "Redux Toolkit",
+        "Firebase",
+        "FireStone",
+        "Material UI"
+      ],
+      "url": "https://github.com/alejopua/Journal"
     }
   ]
 }
