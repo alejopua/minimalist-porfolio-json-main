@@ -261,11 +261,11 @@
       "url": "https://lucent-brioche-f4eab6.netlify.app/"
     },
     {
-      "name": "Poke From API",
+      "name": "Control Pay",
       "isActive": true,
-      "description": "Uso de (PokeAPI). Incluye manejo de errores, un spinner de carga, filtrado de datos y usa Bootstrap.",
-      "technologies": ["RESTful API", "Boopstrap"],
-      "url": "https://poke-from-api.vercel.app/"
+      "description": "App para el control de tus deudas, con autenticación y backend de FireBase.",
+      "technologies": ["FireBase", "Shadcn UI", "Redux Toolkit", "React dom"],
+      "url": "https://github.com/alejopua/controlPay_2024"
     },
     {
       "name": "React Redux Toolkit CRUD",
