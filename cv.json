@@ -30,6 +30,15 @@
   },
   "work": [
     {
+      "name": "Cusezar S.A",
+      "position": "Salesforce Developer",
+      "url": "",
+      "startDate": "2024-06-11",
+      "endDate": null,
+      "summary": "Responsable de construir (APEX, LWC, VF, SQL, SOQL, Process Builder, Flow y Workflow Rules) y mantener aplicaciones en Salesforce. Implementar integraciones API REST, Control de Versiones.",
+      "highlights": []
+    },
+    {
       "name": "Freelance Consulting",
       "position": "Frontend Consultant",
       "url": "",
