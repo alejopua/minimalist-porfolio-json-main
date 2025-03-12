@@ -223,6 +223,11 @@
       "name": "Angular",
       "level": "Intermedio",
       "keywords": ["Framework"]
+    },
+    {
+      "name": "Firebase",
+      "level": "Intermedio",
+      "keywords": ["Autenticación", "Almacenamiento de datos", "Base de datos"]
     }
   ],
   "languages": [
@@ -249,32 +254,11 @@
   ],
   "projects": [
     {
-      "name": "task app Angular 17",
-      "isActive": true,
-      "description": "task manager app developed with Angular 17",
-      "technologies": ["Angular 17", "TailwindCSS"],
-      "url": "https://task-angular17-gqb6jefui-alejopuas-projects.vercel.app/task"
-    },
-    {
-      "name": "TodoApp",
-      "isActive": true,
-      "description": "Gestor de tareas desarrollado, con interfaz intuitiva para mejorar la productividad.",
-      "technologies": ["TailwindCSS"],
-      "url": "https://todo-app-with-react-1nywup6lv-alejopua.vercel.app/"
-    },
-    {
       "name": "Text Encryptor",
       "isActive": true,
       "description": "Proporcionar funciones de cifrado y descifrado de texto.",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "url": "https://lucent-brioche-f4eab6.netlify.app/"
-    },
-    {
-      "name": "Control Pay",
-      "isActive": true,
-      "description": "App para el control de tus deudas, con autenticación y backend de FireBase.",
-      "technologies": ["FireBase", "Shadcn UI", "Redux Toolkit", "React dom"],
-      "url": "https://github.com/alejopua/controlPay_2024"
     },
     {
       "name": "React Redux Toolkit CRUD",
@@ -284,17 +268,11 @@
       "url": "https://crud-react-redux-toolkit-v2.vercel.app/"
     },
     {
-      "name": "Journal",
+      "name": "pricesmart-api-integration",
       "isActive": true,
-      "description": "Gestión de mi diario. la app cuenta con autenticacion con firebase.",
-      "technologies": [
-        "React",
-        "Redux Toolkit",
-        "Firebase",
-        "FireStone",
-        "Material UI"
-      ],
-      "url": "https://github.com/alejopua/Journal"
+      "description": "API Backend para la administración de productos.",
+      "technologies": ["TNode.js", "Express.js", "MongoDB", "JWT", "bcryptjs"],
+      "url": "https://github.com/alejopua/pricesmart-api-integration"
     }
   ]
 }
